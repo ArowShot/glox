@@ -1,0 +1,16 @@
+var a = 5;
+var b = 0;
+{
+    var c = 4;
+    var b = a + c;
+    
+    a = b;
+
+    print "b inside block:";
+    print b;
+}
+print "b outside block:";
+print b;
+
+print "a after block:";
+print a;

@@ -1,0 +1,13 @@
+var f1 = 0;
+var f2 = 1;
+
+var i = 10;
+while(i > 0) {
+    print f2; 
+
+    var ftemp = f2;
+    f2 = f1 + f2;
+    f1 = ftemp;
+
+    i = i - 1;
+}
